@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Image Detail | Instaclone</title>
+		<meta charset="UTF-8">
+		<meta description="Instaclone login page">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="navigation__colummn">
+				<a href="feed.html">
+					<img src="images/logo.png">
+				</a>
+			</div>
+			<div class="navigation__colummn">
+				<i class="fa fa-search"></i>
+				<input type="text" placeholder="Search">
+			</div>
+			<div class="navigation__colummn">
+			<a href="explore.html" class="navigation__link">
+				<i class="fa fa-compass"></i>
+			</a>
+			<a href="#" class="navigation__link">
+				<i class="fa fa-heart-o"></i>
+			</a>
+			<a href="profile.html" class="navigation__link">
+				<i class="fa fa-user-o"></i>
+			</a>
+			</div>
+		</nav>
+		<main class="edit-profile">
+		<div class="edit-profile__row">
+			<img src="images/guy.jpg" alt="guy" class="edit-profile__avatar">
+			<h2 class="edit-profile__username">serranoarevalo</h2>
+		</div>
+		<form>
+			<div class="edit-profile__row">
+				<label for="Name">Name</label>
+				<input type="text" id="Name" value="Yeodal Yoon">
+			</div>
+			<div class="edit-profile__row">
+				<label for="Username">Username</label>
+				<input type="text" id="Username" value="serranoarevalo">
+			</div>
+			<div class="edit-profile__row">
+				<label for="Website">Website</label>
+				<input type="text" id="Website" value="http://serranoarevalo.com">
+			</div>
+			<div class="edit-profile__row">
+				<label for="Bio">Bio</label>
+				<textarea id="bio"></textarea>
+			</div>
+			<div class="edit-profile__row">
+				<label for="Email">Email</label>
+				<input type="email" id="Email" value="yeodal89@gmail.com">
+			</div>
+			<div class="edit-profile__row">
+				<label for="Phone">Phone Number</label>
+				<input type="email" id="Phone" value="+82 10-5162-9517">
+			</div>
+			<div class="edit-profile__row">
+				<label for="Gender">Gender</label>
+				<select id="Gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="whatever">Whatever</option>
+				</select>
+			</div>
+			<div class="edit-profile__row">
+				<span>simillar account suggestions</span>
+				<input type="checkbox" id="similar" checked>
+				<label for="similar">Include your account when recommending similar accounts people might want to follow. <a href="#">[?]</a></label>
+			</div>
+			<div class="edit-profile__row">
+				<label></label>
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+		</main>
+		<footer>
+			<nav class="footer_nav">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">about us</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">support</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">blog</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">press</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">api</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">jobs</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">privacy</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">terms</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">directory</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">language</a></li>
+				</ul>
+			</nav>
+			<span class="footer__copyright">© 2017 instagram</span>
+		</footer>
+	</body>
+</html>
