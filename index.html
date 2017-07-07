@@ -22,6 +22,28 @@
 						title="Logo login" 
 					/>
 				</div>
+				<form action="feed.html" method="GET">
+					<input 
+						type="text" 
+						name="username"
+						placeholder="Username"
+						required
+						class="login_input" 
+					/>
+					<div class="login__form-box">
+						<input 
+							type="password"
+							name="potato"
+							placeholder="Password"
+							required
+							class="login__input" 
+						/>
+						<a href="#">Forgot?</a>
+					</div>
+					<input type="submit" value="Log in">
+				</form>
+				<span class="login__form-divider">or</span>
+				<a id="login__fb-link" href="#">Log in with Facebook</a>
 				<div class="login__box">
 					<span class="login__text">
 						Don't have an account?
@@ -30,12 +52,12 @@
 				</div>
 				<div class="login__box login__box--transparent">
 				</div>
-				<div class="login__box login__box--apps">
-					<span class="login__appguide">
-						Download the apps
+				<div class="login__box">
+					<span class="login__text">
+						Get the apps
 					</span>
 				</div>
-				<div class="login__box login__box--appimages">
+				<div class="login__appstores">
 					<img 
 						src="images/ios.png"
 						alt="ios"
@@ -49,5 +71,22 @@
 				</div>
 			</section>
 		</main>
+		<footer>
+			<nav class="footer_nav">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">about us</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">support</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">blog</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">press</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">api</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">jobs</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">privacy</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">terms</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">directory</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">language</a></li>
+				</ul>
+			</nav>
+			<span class="footer__copyright">© 2017 instagram</span>
+		</footer>
 	</body>
 </html>
