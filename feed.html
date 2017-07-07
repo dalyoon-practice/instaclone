@@ -7,8 +7,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<main>
-		<nav class="navigation">
+	<nav class="navigation">
 			<div class="navigation__colummn">
 				<a href="feed.html">
 					<img src="images/logo.png">
@@ -19,17 +18,52 @@
 				<input type="text" placeholder="Search">
 			</div>
 			<div class="navigation__colummn">
-			<a href="explore.html" class="navigation__link">
+				<a href="explore.html" class="navigation__link">
 				<i class="fa fa-compass"></i>
-			</a>
-			<a href="#" class="navigation__link">
+				</a>
+				<a href="#" class="navigation__link">
 				<i class="fa fa-heart-o"></i>
-			</a>
-			<a href="profile.html" class="navigation__link">
+				</a>
+				<a href="profile.html" class="navigation__link">
 				<i class="fa fa-user-o"></i>
 			</a>
 			</div>
 		</nav>
+		<main id="feed">
+			<article class="photo">
+				<header class="photo__header">
+					<div class="photo__info">
+					<span class="photo_author">martinacordioli</span>
+					<span class="photo__location">Dire Dawa</span>
+					</div>
+				</header>
+				<img src="images/feedphoto.jpg" class="photo__image" />
+				<div class="photo_actions">
+					<i class="fa fa-heart-o fa-2x"></i>
+					<i class="fa fa-comment-o fa-2x"></i>
+				</div>
+				<span class="photo__likes">2,990 likes</span>
+				<ul class="photo__comments">
+					<li class="photo_comment">
+						<span class="photo__comment-author">serranoarevalo</span> omg this is great
+					</li>
+					<li class="photo_comment">
+						<span class="photo__comment-author">serranoarevalo</span> omg this is great
+					</li>
+					<li class="photo_comment">
+						<span class="photo__comment-author">serranoarevalo</span> omg this is great
+					</li>
+					<li class="photo_comment">
+						<span class="photo__comment-author">serranoarevalo</span> omg this is great
+					</li>
+				</ul>
+				<span class="photo_date">13 hours ago</span>
+				<div class="photo__add-comment-container">
+					<textarea class="photo__add-coment-container" name="comment" placeholder="Add a comment...">
+					</textarea>
+					<i class="fa fa-ellipsis-h"></i>
+				</div>
+			</article>
 		</main>
 		<footer>
 			<nav class="footer_nav">
