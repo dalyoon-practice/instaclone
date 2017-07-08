@@ -81,15 +81,16 @@
 }
 
 .photo__add-comment{
+}
+
+.photo__add-comment-container textarea{
+    position: relative;
     width:100%;
     box-sizing: border-box;
     resize: none;
     border: none;
     margin-top: 10px;
-}
-
-.photo__add-comment-container textarea{
-    position: relative;
+    font-weight: 700;
 }
 
 .photo__add-comment-container i{
