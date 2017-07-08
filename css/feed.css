@@ -47,6 +47,7 @@
 }
 
 .photo__main{
+	display:block;
 	margin-left: 13px;
 
 }
