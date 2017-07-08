@@ -81,11 +81,11 @@
 	margin-left: 5px;
 }
 
-.photo__add-comment{
+.photo__add-comment-container{
+	position: relative;
 }
 
 .photo__add-comment-container textarea{
-    position: relative;
     width:98%;
     box-sizing: border-box;
     resize: none;
