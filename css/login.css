@@ -68,6 +68,17 @@
 	margin-top:5px;
 }
 
+.login__form-box{
+	position: relative;
+}
+
+.login__form-box a{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	color: #003569;
+}
+
 input[type="submit"]{
 	width: 100%;
 	display: block;
@@ -92,3 +103,4 @@ input[type="submit"]{
 #login__fb-link{
 	color: #003569;
 }
+

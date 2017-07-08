@@ -1,0 +1,54 @@
+.explore{
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #efefef;
+	width: 60%;
+	background-color: white;
+}
+
+.people__user{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 16px;
+	border-bottom: 1px solid #efefef;
+}
+
+.people__user:last-child{
+	border-bottom: none;
+}
+
+.people__avatar{
+	height: 56px;
+	width: 56px;
+	border-radius: 50%;
+}
+
+.people__name{
+	text-align: left;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.people__username{
+	display: block;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.people__button{
+	padding: 8px;
+	color: white;
+	background-color: #3897f0;
+	border: 0;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.people__button:focus{
+	opacity: none;
+}
+.people__button:active{
+	opacity: .7;
+}
