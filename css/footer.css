@@ -4,12 +4,11 @@ footer{
 	justify-content: space-between;
 	margin: 55px auto;
 	font-weight: 700;
-	width: 95%;
+	width: 90%;
 	text-transform: uppercase;
 }
 
 .footer__nav{
-	display: flex;
 }
 
 .footer__list{

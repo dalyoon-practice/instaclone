@@ -1,0 +1,39 @@
+.login{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 50%;
+	align-items: center;
+}
+#phone-image{
+	margin-right: 20px;
+}
+
+.login__box{
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.login__box--account{
+	padding:25px 0;
+	text-align: center;
+}
+
+.login__box--transparent{
+	border: none;
+	background-color: transparent;
+	margin-top: 25px;
+}
+
+.login__box--transparent img{
+	height: 40px;
+	text-align: center;
+	margin-top: 17px;
+	cursor: pointer;
+}
+
+.login__text{
+}

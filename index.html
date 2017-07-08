@@ -6,9 +6,10 @@
 		<meta description="Instaclone login page">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<main>
+		<main class="login">
 			<div id="phone-image">
 				<img 
 					src="images/phoneImage.png"
@@ -23,45 +24,42 @@
 						alt="Logo login"
 						title="Logo login" 
 					/>
-				</div>
-				<form action="feed.html" method="GET">
-					<input 
-						type="text" 
-						name="username"
-						placeholder="Username"
-						required
-						class="login_input" 
-					/>
-					<div class="login__form-box">
+					<form action="feed.html" method="GET">
 						<input 
-							type="password"
-							name="potato"
-							placeholder="Password"
+							type="text" 
+							name="username"
+							placeholder="Username"
 							required
-							class="login__input" 
+							class="login_input" 
 						/>
-						<a href="#">Forgot?</a>
-					</div>
-					<input type="submit" value="Log in">
+						<div class="login__form-box">
+							<input 
+								type="password"
+								name="potato"
+								placeholder="Password"
+								required
+								class="login__input" 
+							/>
+							<a href="#">Forgot?</a>
+						</div>
+						<input type="submit" value="Log in">
 				</form>
 				<span class="login__form-divider">or</span>
 				<a id="login__fb-link" href="#">
 				<i class="fa fa-facebook-square" aria-hidden="true"></i>
 				Log in with Facebook</a>
-				<div class="login__box">
+				</div>
+				<div class="login__box login__box--account">
 					<span class="login__text">
 						Don't have an account?
 					</span>
 					<a href="#" class="login__link">Sign up</a>
 				</div>
 				<div class="login__box login__box--transparent">
-				</div>
-				<div class="login__box">
 					<span class="login__text">
 						Get the apps
-					</span>
-				</div>
-				<div class="login__appstores">
+					</span>				
+					<div class="login__appstores">
 					<img 
 						src="images/ios.png"
 						alt="ios"
@@ -73,6 +71,8 @@
 						title="android" 
 					/>
 				</div>
+				</div>
+
 			</section>
 		</main>
 		<footer>
