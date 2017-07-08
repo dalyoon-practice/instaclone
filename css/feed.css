@@ -97,6 +97,10 @@
     margin-right: auto;
 }
 
+.photo__add-comment-container textarea:focus{
+	outline: none;
+}
+
 .photo__add-comment-container i{
     position: absolute;
     top: 20px;
