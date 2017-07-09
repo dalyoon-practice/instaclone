@@ -9,7 +9,7 @@
 .photo{
 	border: solid 1px #efefef;
 	margin-bottom: 60px;
-	width:600px;
+	max-width:600px;
 	background-color: white;
 }
 
@@ -116,4 +116,17 @@
     top: 20px;
     right: 15px;
     font-size: 15px;
+}
+
+.fa-heart-o{
+	animation: .5s pump infinite linear;
+}
+
+@keyframes pump{
+	from{
+		transform: none;
+	}
+	to{
+		transform: scale(1.1,1.1);
+	}
 }
