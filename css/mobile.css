@@ -76,3 +76,75 @@
 			border:none;
 		}
 	}
+@media only screen
+	and (min-width: 768px)
+	and (max-width: 1024px){
+		body{
+			}
+		.navigation{
+			padding: 0 20px;
+		}
+
+		main{
+			margin-top: 0;
+		}
+
+		.photo{
+			background-color: transparent;
+			border: none;
+			margin-bottom: 20px;
+		}
+
+		.photo__add-comment-container{
+			background-color: transparent;
+		}
+
+		footer{
+			margin-bottom: 20px;
+		}
+
+		footer,
+		.footer__list{
+			justify-content: center;
+		}
+
+		.footer__list{
+			margin-bottom: 20px;
+		}
+
+		.footer__item{
+			margin-bottom: 10px;
+		}
+
+		#phone-image{
+			display: none;
+		}
+		
+		#login{
+			width:100%;
+		}
+
+		.login{
+			width:95%;
+		}
+
+		.login__box{
+			border:0;
+			background-color: transparent;
+		}
+		
+		.login__box--form{
+			padding-top:0;
+		}
+
+		.explore{
+			background-color: transparent;
+			margin:0;
+			width:100%;
+			border-bottom: none;
+		}
+
+		.people__user{
+			border:none;
+		}
+	}
