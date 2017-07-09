@@ -118,8 +118,9 @@
     font-size: 15px;
 }
 
-.fa-heart-o{
+.fa-heart{
 	animation: .5s pump infinite linear;
+	color:red;
 }
 
 @keyframes pump{
