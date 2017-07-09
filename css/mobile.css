@@ -44,4 +44,24 @@
 			margin-bottom: 10px;
 		}
 
+		#phone-image{
+			display: none;
+		}
+		
+		#login{
+			width:100%;
+		}
+
+		.login{
+			width:95%;
+		}
+
+		.login__box{
+			border:0;
+			background-color: transparent;
+		}
+		
+		.login__box--form{
+			padding-top:0;
+		}
 	}
