@@ -3,6 +3,11 @@
 	flex-direction: column;
 }
 
+.profile__header{
+	display: flex;
+	justify-content: space-between;
+}
+
 .profile__avatar img{
 	height: 150px;
 	width: 150px;
