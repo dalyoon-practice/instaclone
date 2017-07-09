@@ -14,7 +14,7 @@
 		}
 
 		main{
-			margin-top : 0;
+			margin-top: 0;
 		}
 
 		.photo{
@@ -63,5 +63,15 @@
 		
 		.login__box--form{
 			padding-top:0;
+		}
+
+		.explore{
+			background-color: transparent;
+			margin:0;
+			width:100%;
+		}
+
+		.people__user{
+			border:none;
 		}
 	}
