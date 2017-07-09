@@ -4,12 +4,19 @@ $(document).ready(function(){
 		$addComment = $('.photo__add-comment');
 
 	$heart.click(function() {
+
+		var likes = $(this).parent().parent().children('.photo__likes').children('.Photo__likes-number'),
+			likesNumber = parseInt(likes.html()),
+			newValue;
+
 		if($(this).hasClass('fa-heart-o')){
-			console.log("+1")
+			newValue = likesNumber +1;
 		}
 		else{
-			console.log("-1")
+			newValue = likesNumber -1;
 		}
+		likes.html(newValue)
+
 		$(this).toggleClass('fa-heart-o fa-heart');
 	})
 
