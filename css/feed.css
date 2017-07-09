@@ -132,12 +132,17 @@
 	}
 }
 
+.fa-ellipsis-h{
+	cursor: pointer;
+}
+
 .popUp{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     top:0;
+    display: none;
 }
 
 .popUp i{

@@ -1,9 +1,15 @@
 $(document).ready(function(){
 
 	var	$heart = $('.heart'),
-		$addComment = $('.photo__add-comment');
+		$addComment = $('.photo__add-comment'),
+		$ellipsis = $('.fa-ellipsis-h'),
+		$popUp = $('.popUp'),
+		$closePopUp = $('.fa-times'),
+		$closePopUpBtn = $('#closePopUpBtn');
 
-	$heart.click(function() {
+
+
+	$heart.click(function(){
 
 		var likes = $(this).parent().parent().children('.photo__likes').children('.Photo__likes-number'),
 			likesNumber = parseInt(likes.html()),
@@ -30,8 +36,25 @@ $(document).ready(function(){
 			$(this).val('').blur();
 
 			commentList.append("<li class='photo__comment'>\
-				<span class='photo__comment-author'>Visitor</span> \
+				<span class='photo__comment-author'>Visitor</span>\
 				"+ newComment +"</li>")
 		}
 	})
+
+	$ellipsis.click(function(){
+		$popUp.fadeIn();
+	})
+
+	$closePopUp.click(function(){
+		$popUp.fadeOut();
+	})
+
+	function closePopUp(event){
+		event.preventDefault();
+		$popUp.fadeOut();
+	}
+
+	$closePopUp.click(closePopUp);
+    $closePopUpBtn.click(closePopUp);
+
 })
