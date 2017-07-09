@@ -4,6 +4,12 @@ $(document).ready(function(){
 		$addComment = $('.photo__add-comment');
 
 	$heart.click(function() {
+		if($(this).hasClass('fa-heart-o')){
+			console.log("+1")
+		}
+		else{
+			console.log("-1")
+		}
 		$(this).toggleClass('fa-heart-o fa-heart');
 	})
 
