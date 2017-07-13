@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$popUp = $('.popUp'),
 		$closePopUp = $('.fa-times'),
 		$closePopUpBtn = $('#closePopUpBtn');
-		$hellyeah = $('.hellyeah');
+		$hellyeah = $('.hellyeah')
 
 
 
