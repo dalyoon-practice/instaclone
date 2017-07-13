@@ -148,11 +148,11 @@
 .hellyeah{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    top: 40%;
-    left: 40%;
+    top: 30%;
+    left: 38%;
     display: none;
 }
 
