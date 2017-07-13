@@ -6,6 +6,7 @@ $(document).ready(function(){
 		$popUp = $('.popUp'),
 		$closePopUp = $('.fa-times'),
 		$closePopUpBtn = $('#closePopUpBtn');
+		$hellyeah = $('.hellyeah')
 
 
 
@@ -17,6 +18,8 @@ $(document).ready(function(){
 
 		if($(this).hasClass('fa-heart-o')){
 			newValue = likesNumber +1;
+			$hellyeah.fadeIn(200);
+			$hellyeah.fadeOut(3000);
 		}
 		else{
 			newValue = likesNumber -1;
