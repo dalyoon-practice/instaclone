@@ -89,19 +89,21 @@
 }
 
 .profile__images{
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .profile__image-row{
-	width:100%;
-}
-
-.profile__row-image{
-	width: 33%;
+	display: block;
 }
 
 .profile__row-image-container{
 	display: flex;
-	flex-wrap: wrap;
+	width: 100%;
+	margin-top:3px;
+}
 
+.profile__row-image-container img{
+	width: 297px;
+	height: 222.75px;
+	margin-right: 5px;
 }
