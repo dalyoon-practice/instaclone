@@ -1,0 +1,132 @@
+.edit__profile{
+	display:flex;
+	max-width: none;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.edit-profile{
+	max-width: 600px;	
+	border: 1px solid #dbdbdb;
+	background-color: white;
+
+}
+
+.edit-profile__avatar{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.edit-profile__row{
+	display: flex;
+	align-items: center;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	font-size: 15px;
+	justify-content: space-between;
+}
+
+.edit-profile__username{
+	margin-right: 345px;
+	font-size: 20px;
+}
+
+.edit-profile__row img{
+	margin-left: 50px;
+}
+
+.edit-profile__row label{
+	margin-left: 30px;
+}
+
+.edit-profile__row input{
+	height: 25px;
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 3px;
+	margin-right: 150px;
+	width: 50%;
+}
+
+.edit-profile__row textarea{
+	margin-right: 150px;
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 3px;
+	width: 49.5%;
+	height: 50px;
+	resize: none;
+}
+
+.edit-profile__row select{
+	height: 25px;
+	width: 100px;
+	margin-right: 280px;
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 3px;
+}
+
+.edit-profile__row textarea:hover{
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row input:hover{
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row select:hover{
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row textarea:focus{
+	outline: none;
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row textarea:focus{
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row input:focus{
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row select:focus{
+	background-color: lemonchiffon;
+}
+
+.edit-profile__row input[type="submit"]:hover{
+	background-color: #3897f0;
+}
+
+.edit-profile__row span{
+	margin-left: 30px;
+	width:100%;
+}
+
+.edit-profile__guide{
+	display: flex;
+	width: 300px;
+	margin-right: 0px;
+	margin-left:30px;
+	font-size:15px;
+}
+
+.edit-profile__guide{
+	margin: none;
+	display: flex;
+	align-items: center;
+	width: 300px;
+	margin-right: 0px;
+	margin-left:30px;
+	font-size:15px;
+}
+
+.edit-profile__guide input[type="checkbox"]{
+	width: 50px;
+}
+
+.edit-profile__guide label{
+	width: 500px;
+	font-size: 12px;
+}

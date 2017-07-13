@@ -68,6 +68,14 @@
 	margin-top:5px;
 }
 
+.login__input:hover{
+	background-color: lemonchiffon;
+}
+
+.login__input:focus{
+	background-color: lemonchiffon;
+}
+
 .login__form-box{
 	position: relative;
 }
