@@ -75,6 +75,12 @@
 		.people__user{
 			border:none;
 		}
+		.hellyeah{
+			width: 200px;
+			height: 200px;
+			top: 20%;
+			left: 25%;
+		}
 	}
 @media only screen
 	and (min-width: 768px)
