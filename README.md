@@ -5,5 +5,6 @@ My first code ever
 ## Description
 
 - specification: html, css, basic js
-- period: 2017-07
 - purpose: cloning practice 
+- createdAt: 2017-07
+- archivedAt: 2021-08
